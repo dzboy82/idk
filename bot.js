@@ -2,6 +2,8 @@ const Discord = require("discord.js");
 const client = new Discord.Client();
 const client2 = new Discord.Client();
 
+});
+
 client.on('ready', () => {
    console.log(`----------------`);
    console.log(`Credit Farmm - Script By : Soheib `);
@@ -12,6 +14,10 @@ client.on('ready', () => {
    console.log(`Loadinng...`);
    console.log(`This Bots Online ' `);
    console.log(`----------------`);
+     client.user.setGame(`Idk `,'https://www.twitch.tv/dz27boy');
+  console.log('---------------');
+  console.log(' Bot Is Online')
+  console.log('---------------')
 });
 
 
