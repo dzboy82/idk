@@ -3,7 +3,7 @@ const client = new Discord.Client();
 const {
 	prefix,"!"
 	prefix,!
-	token,
+	token,"NzExNzgxODEyOTA0NTI1OTI1.XsIAhQ.9i5Af1THsm6tPYFpnCXDl_iR7_4"
 } = require('./config.json');
 const ytdl = require('ytdl-core');
 
